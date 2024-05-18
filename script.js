@@ -1,0 +1,1 @@
+echo "console.log('Welcome to Pigskin Prophet!');" >> script.js
