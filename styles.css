@@ -1,3 +1,7 @@
-echo "body {
+body {
     font-family: Arial, sans-serif;
-}" >> styles.css
+}
+
+#scenario {
+    margin-top: 20px;
+}

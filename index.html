@@ -1,11 +1,30 @@
-echo "<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Pigskin Prophet</title>
     <link rel='stylesheet' type='text/css' href='styles.css'>
 </head>
 <body>
-    <h1>Welcome to Pigskin Prophet!</h1>
-    <script src='script.js'></script>
+    <h1>The Pigskin Prophet</h1>
+    <div style="display: flex;">
+        <div style="flex: 1;">
+            <button id="generate">Generate Scenario</button>
+            <div id="scenario"></div>
+        </div>
+        <div style="flex: 1;">
+            <button id="generateOffenseStatsButton">Generate Offense Stats</button>
+            <div id="offenseStats"></div>
+        </div>
+        <div style="flex: 1;">
+            <button id="generateOffensePlayerStatsButton">Offensive Player Stats</button>
+            <div id="offensePlayerStats"></div>
+    </div>
+    </div>
+    <div>
+        <h2>Defense</h2>
+        <button id="generateDefenseThreatsButton">Generate Defense Threats</button>
+        <div id="defenseThreatLevels"></div>
+    </div>
+    <script type="module" src="script.js"></script>
 </body>
-</html>" >> index.html
+</html>
